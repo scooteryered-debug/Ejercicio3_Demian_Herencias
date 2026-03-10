@@ -5,6 +5,6 @@ class Persona(object):
         self.edad = edad
     
     def __str__(self):
-        return self.clave + "" + self.nombre + "" + str(self.edad)
+        return self.clave + " " + self.nombre + " " + str(self.edad)
     
     
